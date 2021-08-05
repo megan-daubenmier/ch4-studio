@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4-studio\\ch4-studio\\ch4-studio\\ch4-studio.csproj",
+      "projectUniqueName": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4_5-studio\\ch4-studio\\ch4-studio\\ch4-studio\\ch4-studio.csproj",
       "projectName": "ch4-studio",
-      "projectPath": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4-studio\\ch4-studio\\ch4-studio\\ch4-studio.csproj",
+      "projectPath": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4_5-studio\\ch4-studio\\ch4-studio\\ch4-studio\\ch4-studio.csproj",
       "packagesPath": "C:\\Users\\16165\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4-studio\\ch4-studio\\ch4-studio\\obj\\",
+      "outputPath": "C:\\Users\\16165\\Documents\\CoderGirl2021\\Unit2\\csharp-practice\\chapter4\\ch4_5-studio\\ch4-studio\\ch4-studio\\ch4-studio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\16165\\AppData\\Roaming\\NuGet\\NuGet.Config",
