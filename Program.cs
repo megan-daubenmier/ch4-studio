@@ -15,9 +15,12 @@ namespace ch4_studio
             myItems.Add(item1);
             myItems.Add(item2);
             Menu myMenu = new Menu(myItems);
-            Console.WriteLine(myMenu.lastUpdated);
-            Console.WriteLine(myMenu.addItemToMenu(item3));
-            Console.WriteLine(myMenu.lastUpdated);
+            myMenu.addItemToMenu(item3);
+            myMenu.printMenu();
+            Console.WriteLine(item1.ToString());
+
+            myMenu.removeItemFromMenu(item2);
+            myMenu.printMenu();
         }
     }
 }

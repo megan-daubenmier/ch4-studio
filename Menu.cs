@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ch4_studio
 {
-    class Menu
+    public class Menu
     {
         public DateTime lastUpdated { get; set; }
         public List<MenuItem> Items { get; set; }
@@ -13,26 +13,45 @@ namespace ch4_studio
             lastUpdated = DateTime.Now;
         }
 
-        public List<bool> addItemsToMenu(List<MenuItem> newItems)
+        public bool addItemToMenu(MenuItem newItem)
         {
-            List<bool> results = new List<bool>();
-
-            foreach(MenuItem item in newItems)
+            if (!Items.Contains(newItem))
             {
-                if (!Items.Contains(item))
-                {
-                    Items.Add(item);
-                    lastUpdated = DateTime.Now;
-                    results.Add(true);
-                }
-                else
-                {
-                    results.Add(false);
-                }
+                Items.Add(newItem);
+                lastUpdated = DateTime.Now;
+                return true;
             }
+            else
+            {
+                return false;
+            }            
+        }
 
-            return results;
-            
+        public bool removeItemFromMenu(MenuItem newItem)
+        {
+            if (Items.Contains(newItem))
+            {
+                Items.Remove(newItem);
+                lastUpdated = DateTime.Now;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public DateTime whenLastUpdated(Menu menu)
+        {
+            return lastUpdated;
+        }
+
+        public void printMenu()
+        {
+            foreach(MenuItem item in Items)
+            {
+                Console.WriteLine(item.ToString());
+            }
         }
     }
 }

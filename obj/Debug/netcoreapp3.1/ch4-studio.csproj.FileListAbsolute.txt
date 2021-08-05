@@ -1,0 +1,13 @@
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.csproj.AssemblyReference.cache
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.AssemblyInfoInputs.cache
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.AssemblyInfo.cs
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.csproj.CoreCompileInputs.cache
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.exe
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.deps.json
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.runtimeconfig.json
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.runtimeconfig.dev.json
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.dll
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\bin\Debug\netcoreapp3.1\ch4-studio.pdb
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.dll
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.pdb
+C:\Users\16165\Documents\CoderGirl2021\Unit2\csharp-practice\chapter4\obj\Debug\netcoreapp3.1\ch4-studio.genruntimeconfig.cache

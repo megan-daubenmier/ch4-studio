@@ -37,5 +37,33 @@ namespace ch4_studio
             Description = description;
             Category = category;
         }
+
+        public bool isItemNew(MenuItem item)
+        {
+            return isNew;
+        }
+
+        public override string ToString()
+        {
+            String menuString = "\n" + Name + ": " + "\nCategory: " + Category + "\nDescription: " + Description + "\nPrice: " + Price;
+            if (isNew)
+            {
+                menuString += "\n***NEW ITEM!!***";
+            }
+
+            return menuString;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is MenuItem item &&
+                   Name == item.Name;
+        }
+
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Name);
+        }
+
     }
 }
