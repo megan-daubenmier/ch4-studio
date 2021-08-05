@@ -13,17 +13,17 @@ namespace ch4_studio
             lastUpdated = DateTime.Now;
         }
 
-        public bool addItemToMenu(MenuItem newItem)
+        public void addItemToMenu(MenuItem newItem)
         {
             if (!Items.Contains(newItem))
             {
                 Items.Add(newItem);
                 lastUpdated = DateTime.Now;
-                return true;
+                Console.WriteLine("New item has been successfully added to menu.");
             }
             else
             {
-                return false;
+                Console.WriteLine("Failed to add item to menu. Item is already on menu.");
             }            
         }
 
