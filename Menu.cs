@@ -13,17 +13,26 @@ namespace ch4_studio
             lastUpdated = DateTime.Now;
         }
 
-        public bool addItemToMenu(MenuItem newItem)
+        public List<bool> addItemsToMenu(List<MenuItem> newItems)
         {
-            if (!Items.Contains(newItem))
+            List<bool> results = new List<bool>();
+
+            foreach(MenuItem item in newItems)
             {
-                Items.Add(newItem);
-                lastUpdated = DateTime.Now;
-                return true;
-            } else
-            {
-                return false;
+                if (!Items.Contains(item))
+                {
+                    Items.Add(item);
+                    lastUpdated = DateTime.Now;
+                    results.Add(true);
+                }
+                else
+                {
+                    results.Add(false);
+                }
             }
+
+            return results;
+            
         }
     }
 }
